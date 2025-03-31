@@ -49,6 +49,7 @@
             btnAddContact.TabIndex = 1;
             btnAddContact.Text = "Thêm liên hệ";
             btnAddContact.UseVisualStyleBackColor = true;
+            btnAddContact.Click += btnAddContact_Click;
             // 
             // Form1
             // 
