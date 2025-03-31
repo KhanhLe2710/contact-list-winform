@@ -31,6 +31,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             button1 = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -58,11 +59,21 @@
             button1.Text = "Lưu";
             button1.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(281, 340);
+            label1.Name = "label1";
+            label1.Size = new Size(49, 20);
+            label1.TabIndex = 3;
+            label1.Text = "Email:";
+            // 
             // AddContactForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -77,5 +88,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Button button1;
+        private Label label1;
     }
 }
